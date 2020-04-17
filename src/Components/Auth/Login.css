@@ -1,0 +1,55 @@
+.logo-text-container {
+  padding-top: 85px;
+}
+
+.company-logo-section {
+  margin: 25% 0 0 0;
+  animation: LogoMoveToRight 2s;
+  width: 70%;
+  height: 70%;
+}
+
+.text-animation {
+  animation: textAnimation 2s;
+}
+
+.company-logo {
+  width: 70%;
+  height: 70%;
+}
+
+span.error {
+  color: red;
+  font-size: 13px;
+  border: 1px solid red;
+  display: block;
+  text-align: center;
+  padding: 4px;
+}
+
+.registerBtn {
+  padding: 0 5px !important;
+  display: inline-block;
+  color: #555 !important;
+}
+@keyframes LogoMoveToRight {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

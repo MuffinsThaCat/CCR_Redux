@@ -1,0 +1,10 @@
+export const STORE_ERR_MESSAGE = "STORE_ERR_MESSAGE";
+export const STORE = "STORE";
+export const PROVE_ERR_MESSAGE = "PROVE_ERR_MESSAGE";
+export const PROVE = "PROVE";
+export const DOWNLOAD_ERR_MESSAGE = "DOWNLOAD_ERR_MESSAGE";
+export const DOWNLOAD = "DOWNLOAD";
+export const CREATE_WALLET = "CREATE_WALLET";
+export const GET_MITS = "GET_MITS";
+export const AUTHENTICATION = "AUTHENTICATION";
+export const CREATE_ACCOUNT = "CREATE_ACCOUNT";

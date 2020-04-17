@@ -1,0 +1,24 @@
+.avatar {
+}
+
+.cardHolder {
+  width: 100%;
+}
+
+.card {
+  background-color: #fafafa !important;
+}
+
+.mitContainer {
+  width: 100% !important;
+  margin: 0 0 10px !important;
+}
+
+.refreshImg {
+  display: inline-block;
+  height: 24px;
+}
+
+.refreshImg:hover {
+  cursor: pointer;
+}

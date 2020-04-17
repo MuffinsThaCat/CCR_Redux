@@ -1,0 +1,125 @@
+.btn-verify {
+  background-color: #ffffff;
+  width: 40%;
+  color: #17bcde;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 2%;
+  border: 2px solid #17bcde;
+}
+
+.btn-verify:hover {
+  background-color: #00bcdf;
+  color: #ffffff;
+}
+
+.btn-create {
+  background-color: #ffffff;
+  width: 40%;
+  color: #17bcde;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 2%;
+  border: 2px solid #17bcde;
+}
+.btn-another {
+  background-color: #ffffff;
+  width: 50%;
+  color: #17bcde;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 2%;
+  border: 2px solid #17bcde;
+}
+
+.btn-create:hover {
+  background-color: #17bcde;
+  color: #ffffff;
+}
+
+.btn-create-disabled {
+  background-color: #f2efef;
+  width: 40%;
+  color: #6f7275;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 2%;
+  border: 2px solid rgb(180, 180, 180);
+}
+.btn-create-disabled:hover {
+  background-color: #f2efef;
+  color: #6f7275;
+  border: 2px solid rgb(180, 180, 180);
+}
+
+#Verify-tab {
+  font-size: 22px;
+  color: #000000;
+  padding: 13px;
+}
+
+#Verify-tab:hover {
+  background-color: #17bcde;
+  color: white;
+}
+
+#Create-tab {
+  font-size: 22px;
+  color: #000000;
+  padding: 13px;
+}
+
+#Create-tab:hover {
+  background-color: #17bcde;
+  color: white;
+}
+
+#Mit-tab {
+  font-size: 22px;
+  color: #000000;
+  padding: 13px;
+}
+
+#Mit-tab:hover {
+  background-color: #17bcde;
+  color: white;
+}
+
+/* .file {
+  cursor: pointer;
+  background-color: #3375b7;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 5px;
+} */
+
+.file:hover {
+  background-color: #52859e;
+}
+
+.mitInput input {
+  text-align: center;
+}
+
+.tab-pane {
+  padding: 10px 10px 20px;
+}
+
+ input::placeholder {
+  font-size:13px !important;
+}
+
+span.error {
+  color: red;
+  font-size: 13px;
+  border: 1px solid red;
+  display: block;
+  text-align: center;
+  padding: 4px;
+}
+.btn-input {
+  background-color: rgb(249, 247, 247);
+  color: #000;
+  font-size: 16px;
+  border: 1px solid lightgray;
+}
